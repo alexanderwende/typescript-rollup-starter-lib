@@ -43,5 +43,8 @@
     "tslint": "^5.12.1",
     "tslint-clean-code": "^0.2.9",
     "typescript": "^3.2.4"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
