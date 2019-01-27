@@ -6,7 +6,8 @@
   "main": "lib/index.cjs.js",
   "module": "lib/index.esm.js",
   "files": [
-    "/lib/"
+    "/lib/",
+    "/src/"
   ],
   "scripts": {
     "prebuild": "rimraf dist",
@@ -14,7 +15,7 @@
     "pretest": "rimraf dev coverage",
     "test": "tsc -p tsconfig.dev.json && karma start karma.config.js",
     "test:watch": "tsc -w -p tsconfig.dev.json & karma start karma.config.js --auto-watch --no-single-run",
-    "release": "release-it --no-npm.publish --dry-run",
+    "release": "release-it --no-npm.publish",
     "changelog": "auto-changelog -p --stdout",
     "beforeStage": "auto-changelog -p"
   },
