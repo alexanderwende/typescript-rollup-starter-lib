@@ -4,8 +4,5 @@
     "outDir": "dev",
     "declaration": false,
     "declarationMap": false
-  },
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }

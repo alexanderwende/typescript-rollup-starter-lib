@@ -1,9 +1,9 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-        "tslint-clean-code"
-    ],
-    "jsRules": {},
-    "rules": {},
-    "rulesDirectory": []
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint-clean-code"
+  ],
+  "jsRules": {},
+  "rules": {},
+  "rulesDirectory": []
 }

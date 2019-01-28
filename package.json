@@ -38,6 +38,7 @@
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-filesize": "^6.0.1",
     "rollup-plugin-istanbul": "^2.0.1",
+    "rollup-plugin-local-resolve": "^1.0.7",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-terser": "^4.0.3",
     "rollup-plugin-typescript2": "^0.19.2",

@@ -1,4 +1,5 @@
 import pluginTypescript from 'rollup-plugin-typescript2';
+import pluginLocalResolve from 'rollup-plugin-local-resolve';
 import pluginNodeResolve from 'rollup-plugin-node-resolve';
 import pluginCommonJS from 'rollup-plugin-commonjs';
 import { terser as pluginTerser } from 'rollup-plugin-terser';
@@ -12,9 +13,17 @@ export default [
         plugins: [
             pluginTypescript({
                 typescript: typescript,
+                exclude: [
+                    'node_modules',
+                    'src/**/*.spec.ts'
+                ],
                 clean: true
             }),
+            // needed for imports from directories via index.ts files
+            pluginLocalResolve(),
+            // needed for absolute imports from node_modules
             pluginNodeResolve(),
+            // needed for commonjs imports from node_modules
             pluginCommonJS(),
             pluginTerser(),
             pluginFileSize({
