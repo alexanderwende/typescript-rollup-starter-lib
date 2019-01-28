@@ -15,6 +15,7 @@
     "pretest": "rimraf dev coverage",
     "test": "tsc -p tsconfig.dev.json && karma start karma.config.js",
     "test:watch": "tsc -w -p tsconfig.dev.json & karma start karma.config.js --auto-watch --no-single-run",
+    "prerelease": "npm test && npm build && git add lib && git commit -m \"chore(build): updating build files\"",
     "release": "release-it --no-npm.publish",
     "changelog": "auto-changelog -p --stdout",
     "beforeStage": "auto-changelog -p"
