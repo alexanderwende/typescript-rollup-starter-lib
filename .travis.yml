@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - "node"
+  - "lts/*"
+
+cache: npm
+
+git:
+  depth: 1
+
+script: npm run test:ci
