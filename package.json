@@ -1,6 +1,6 @@
 {
   "name": "typescript-rollup-starter-lib",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "A project template for TypeScript libraries.",
   "types": "lib/index.d.ts",
   "main": "lib/index.cjs.js",
