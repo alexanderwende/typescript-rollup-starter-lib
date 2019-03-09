@@ -26,10 +26,10 @@
     "predocs": "rimraf ./docs",
     "docs": "api-extractor run && api-documenter markdown --input-folder ./docs --output-folder ./docs",
     "prerelease": "npm run test && npm run build",
-    "release": "standard-version",
+    "release": "git add ./dist ./docs && standard-version -a",
     "release:minor": "npm run release -- --release-as minor",
     "release:major": "npm run release -- --release-as major",
-    "release:dry": "npm run release -- --dry-run"
+    "release:dry": "standard-version --dry-run"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^1.5.59",
