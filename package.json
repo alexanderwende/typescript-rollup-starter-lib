@@ -20,9 +20,10 @@
     "test:watch": "tsc -w -p tsconfig.dev.json & karma start karma.config.js --auto-watch --no-single-run",
     "predocs": "rimraf ./docs",
     "docs": "api-extractor run && api-documenter markdown --input-folder ./docs --output-folder ./docs",
-    "release": "release-it --no-npm.publish",
-    "changelog": "auto-changelog -p --stdout",
-    "beforeStage": "auto-changelog -p"
+    "release": "standard-version",
+    "release:minor": "npm run release -- --release-as minor",
+    "release:major": "npm run release -- --release-as major",
+    "release:dry": "npm run release -- --dry-run"
   },
   "author": "Alexander Wende",
   "license": "BSD-3-Clause",
@@ -30,7 +31,6 @@
     "@microsoft/api-documenter": "^1.5.59",
     "@microsoft/api-extractor": "^6.3.0",
     "@types/jasmine": "^3.3.9",
-    "auto-changelog": "^1.11.0",
     "coveralls": "^3.0.3",
     "jasmine-core": "^3.3.0",
     "karma": "^4.0.1",
@@ -40,7 +40,6 @@
     "karma-mocha-reporter": "^2.2.5",
     "karma-remap-coverage": "^0.1.5",
     "karma-rollup-preprocessor": "^7.0.0",
-    "release-it": "^10.3.1",
     "rimraf": "^2.6.3",
     "rollup": "^1.6.0",
     "rollup-plugin-commonjs": "^9.2.1",
@@ -50,6 +49,7 @@
     "rollup-plugin-node-resolve": "^4.0.1",
     "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-typescript2": "^0.19.3",
+    "standard-version": "^5.0.1",
     "tslint": "^5.13.1",
     "tslint-clean-code": "^0.2.9",
     "typescript": "^3.3.3333"
