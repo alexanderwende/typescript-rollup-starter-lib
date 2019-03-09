@@ -25,6 +25,7 @@
     "test:watch": "tsc -w -p tsconfig.dev.json & karma start karma.config.js --auto-watch --no-single-run",
     "predocs": "rimraf ./docs",
     "docs": "api-extractor run && api-documenter markdown --input-folder ./docs --output-folder ./docs",
+    "prerelease": "npm run test && npm run build",
     "release": "standard-version",
     "release:minor": "npm run release -- --release-as minor",
     "release:major": "npm run release -- --release-as major",
