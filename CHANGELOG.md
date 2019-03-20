@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.1](https://github.com/alexanderwende/typescript-rollup-starter-lib/compare/v0.4.0...v0.4.1) (2019-03-20)
+
+
+### Bug Fixes
+
+* improve .editorconfig ([731b957](https://github.com/alexanderwende/typescript-rollup-starter-lib/commit/731b957))
+
+
+
 # 0.4.0 (2019-03-09)
 
 
