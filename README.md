@@ -10,7 +10,7 @@ A project template for TypeScript libraries.
 
 * Unit testing and code coverage with [karma](http://karma-runner.github.io/) and [karma-typescript](https://www.npmjs.com/package/karma-typescript)
 * Debug configuration for VSCode to debug unit tests
-* Build commonjs and es5 modules with [rollup](https://rollupjs.org/)
+* Build tree-shakeable es6 and commonjs modules and check bundle size with [rollup](https://rollupjs.org/)
 * Generate API documentation with Microsoft's [api-extractor](https://github.com/Microsoft/web-build-tools/tree/master/apps/api-extractor) and [api-documenter](https://github.com/Microsoft/web-build-tools/tree/master/apps/api-documenter) based on [TSDoc](https://github.com/Microsoft/tsdoc) standard
 * Use [conventional commit messages](https://conventionalcommits.org/) with [commitizen](https://github.com/commitizen/cz-cli) and [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
 * Automate releases (versioning and CHANGELOG generation) with [standard-version](https://github.com/conventional-changelog/standard-version) using [semver](https://semver.org/)

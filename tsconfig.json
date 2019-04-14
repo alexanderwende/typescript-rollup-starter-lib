@@ -6,8 +6,6 @@
       "es2018",
       "dom"
     ],
-    "declaration": true,
-    "declarationMap": true,
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,

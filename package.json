@@ -8,16 +8,19 @@
   "homepage": "https://github.com/alexanderwende/typescript-rollup-starter-lib#readme",
   "bugs": "https://github.com/alexanderwende/typescript-rollup-starter-lib/issues",
   "sideEffects": false,
-  "types": "dist/index.d.ts",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "types": "dist/types/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
   "files": [
     "/dist/",
     "/src/"
   ],
   "scripts": {
     "prebuild": "rimraf ./dist",
-    "build": "rollup -c",
+    "build": "npm run build:esm && npm run build:cjs && npm run checksize",
+    "build:esm": "tsc -p tsconfig.build.json -d --declarationMap --declarationDir ./dist/types/ --outDir ./dist/esm/",
+    "build:cjs": "tsc -p tsconfig.build.json --module commonjs --outDir ./dist/cjs/",
+    "checksize": "rollup -c && rimraf dist/index.esm.bundle.js",
     "predocs": "rimraf ./docs",
     "docs": "api-extractor run && api-documenter markdown --input-folder ./docs --output-folder ./docs",
     "pretest": "rimraf ./coverage",
