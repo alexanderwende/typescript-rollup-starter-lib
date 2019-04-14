@@ -2,6 +2,7 @@
 
 # Foo.greet method
 
+Let the foo greet
 
 **Signature:**
 ```javascript
@@ -9,3 +10,4 @@ greet(): string;
 ```
 **Returns:** `string`
 
+The greeting

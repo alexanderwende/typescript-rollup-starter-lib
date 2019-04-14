@@ -6,6 +6,6 @@
 
 |  Class | Description |
 |  --- | --- |
-|  [`Foo`](./typescript-rollup-starter-lib.foo.md) |  |
-|  [`FooBar`](./typescript-rollup-starter-lib.foobar.md) |  |
+|  [`Foo`](./typescript-rollup-starter-lib.foo.md) | The Foo class |
+|  [`FooBar`](./typescript-rollup-starter-lib.foobar.md) | The FooBar class |
 

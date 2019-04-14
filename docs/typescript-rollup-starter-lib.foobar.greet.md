@@ -2,6 +2,7 @@
 
 # FooBar.greet method
 
+Let the foobar greet
 
 **Signature:**
 ```javascript
@@ -9,3 +10,4 @@ greet(): string;
 ```
 **Returns:** `string`
 
+The greeting

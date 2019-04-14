@@ -2,6 +2,8 @@
 
 # Foo class
 
+The Foo class
+
 ## Properties
 
 |  Property | Access Modifier | Type | Description |
@@ -13,5 +15,5 @@
 |  Method | Access Modifier | Returns | Description |
 |  --- | --- | --- | --- |
 |  [`constructor(name)`](./typescript-rollup-starter-lib.foo.constructor.md) |  |  | Constructs a new instance of the [Foo](./typescript-rollup-starter-lib.foo.md) class |
-|  [`greet()`](./typescript-rollup-starter-lib.foo.greet.md) |  | `string` |  |
+|  [`greet()`](./typescript-rollup-starter-lib.foo.greet.md) |  | `string` | Let the foo greet |
 

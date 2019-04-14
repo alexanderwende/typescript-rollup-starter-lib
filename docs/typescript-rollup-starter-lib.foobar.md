@@ -2,6 +2,8 @@
 
 # FooBar class
 
+The FooBar class
+
 ## Properties
 
 |  Property | Access Modifier | Type | Description |
@@ -13,5 +15,5 @@
 |  Method | Access Modifier | Returns | Description |
 |  --- | --- | --- | --- |
 |  [`constructor(name)`](./typescript-rollup-starter-lib.foobar.constructor.md) |  |  | Constructs a new instance of the [FooBar](./typescript-rollup-starter-lib.foobar.md) class |
-|  [`greet()`](./typescript-rollup-starter-lib.foobar.greet.md) |  | `string` |  |
+|  [`greet()`](./typescript-rollup-starter-lib.foobar.greet.md) |  | `string` | Let the foobar greet |
 

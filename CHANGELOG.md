@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+# [0.5.0](https://github.com/alexanderwende/typescript-rollup-starter-lib/compare/v0.4.1...v0.5.0) (2019-04-14)
+
+
+### Bug Fixes
+
+* **docs:** fix api-extractor configuration to point to correct index.d.ts ([7650502](https://github.com/alexanderwende/typescript-rollup-starter-lib/commit/7650502))
+
+
+### Features
+
+* add commitizen and cz-conventional-changelog ([3bd66f2](https://github.com/alexanderwende/typescript-rollup-starter-lib/commit/3bd66f2))
+* **build:** create tree-shakeable es6 and commonjs dist output ([bae3074](https://github.com/alexanderwende/typescript-rollup-starter-lib/commit/bae3074))
+* **testing:** update karma configuration and add VSCode debug configuration to allow debugging unit ([40fd9c6](https://github.com/alexanderwende/typescript-rollup-starter-lib/commit/40fd9c6))
+
+
+
 ## [0.4.1](https://github.com/alexanderwende/typescript-rollup-starter-lib/compare/v0.4.0...v0.4.1) (2019-03-20)
 
 
