@@ -4,13 +4,16 @@ A project template for TypeScript libraries.
 [![Build Status](https://travis-ci.org/alexanderwende/typescript-rollup-starter-lib.svg?branch=master)](https://travis-ci.org/alexanderwende/typescript-rollup-starter-lib)
 [![Coverage Status](https://coveralls.io/repos/github/alexanderwende/typescript-rollup-starter-lib/badge.svg?branch=master)](https://coveralls.io/github/alexanderwende/typescript-rollup-starter-lib?branch=master)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ## Features
 
-* Unit testing and code coverage with [karma](http://karma-runner.github.io/) and [karma-remap-coverage](https://github.com/sshev/karma-remap-coverage)
+* Unit testing and code coverage with [karma](http://karma-runner.github.io/) and [karma-typescript](https://www.npmjs.com/package/karma-typescript)
+* Debug configuration for VSCode to debug unit tests
 * Build commonjs and es5 modules with [rollup](https://rollupjs.org/)
 * Generate API documentation with Microsoft's [api-extractor](https://github.com/Microsoft/web-build-tools/tree/master/apps/api-extractor) and [api-documenter](https://github.com/Microsoft/web-build-tools/tree/master/apps/api-documenter) based on [TSDoc](https://github.com/Microsoft/tsdoc) standard
-* Automate releases (versioning and CHANGELOG generation) with [standard-version](https://github.com/conventional-changelog/standard-version) using [semver](https://semver.org/) and [conventional commit messages](https://conventionalcommits.org/)
+* Use [conventional commit messages](https://conventionalcommits.org/) with [commitizen](https://github.com/commitizen/cz-cli) and [cz-conventional-changelog](https://github.com/commitizen/cz-conventional-changelog)
+* Automate releases (versioning and CHANGELOG generation) with [standard-version](https://github.com/conventional-changelog/standard-version) using [semver](https://semver.org/)
 * Integration with [Travis CI](https://travis-ci.org/) and [Coveralls](https://coveralls.io/)
 
 ## Usage
