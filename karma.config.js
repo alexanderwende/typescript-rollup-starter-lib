@@ -54,8 +54,15 @@ module.exports = function (config) {
                 ],
             },
             reports: {
-                'html': 'coverage/html',
-                'lcovonly': 'coverage/lcov.info',
+                'html': {
+                    directory: 'coverage',
+                    subdirectory: () => ''
+                },
+                'lcovonly': {
+                    directory: 'coverage',
+                    subdirectory: () => '',
+                    filename: 'lcov.info'
+                },
                 'text': null
             },
             tsconfig: './tsconfig.json'
