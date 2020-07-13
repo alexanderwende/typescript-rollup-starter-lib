@@ -60,7 +60,7 @@
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-terser": "^4.0.4",
     "rollup-plugin-typescript2": "^0.20.1",
-    "standard-version": "^5.0.2",
+    "standard-version": "^8.0.1",
     "tslint": "^5.15.0",
     "tslint-clean-code": "^0.2.9",
     "typescript": "^3.4.3"
