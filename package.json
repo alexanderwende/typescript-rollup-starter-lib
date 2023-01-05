@@ -50,7 +50,7 @@
     "karma-remap-coverage": "^0.1.5",
     "karma-rollup-preprocessor": "^7.0.0",
     "karma-typescript": "^4.0.0",
-    "karma-typescript-es6-transform": "^4.0.0",
+    "karma-typescript-es6-transform": "^5.5.3",
     "rimraf": "^2.6.3",
     "rollup": "^1.10.0",
     "rollup-plugin-commonjs": "^9.3.4",
